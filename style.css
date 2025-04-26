@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(71, 131, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.input-cont{
+    width: 50%;
+    text-align: center;
+}
+input[type="range"]{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+#value {
+    margin-top: 10px;
+    font-size: 40px;
+  }
